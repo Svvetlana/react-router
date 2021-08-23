@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1100px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.photo {
+    margin: 50px 0;
+    width: 100%;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(106, 106, 233);
+    margin-bottom: 30px;
+}
+
+.text {
+    margin: 20px 0;
+    font-size: 18px;
+    color: rgb(38, 26, 204);
+}
+.photo_inner {
+display: flex;
+flex-wrap:wrap;
+}
+
+.photo_inner_item {
+display: block;
+padding: 0px;
+margin: 0px;
+border: 0;
+border-radius: 0px;
+text-decoration: none;
+}
+
+.photo img {
+    display: block;
+}
